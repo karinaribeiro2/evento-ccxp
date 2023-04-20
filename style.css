@@ -1,0 +1,160 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #FFD900;
+}
+
+header img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  width: 15%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+#info {
+  background: #514988;
+  width: 40%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#info h1 {
+  color: #F3C61F;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#info h2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#info p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+}
+
+.timer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #514988;
+  text-align: center;
+  justify-content: space-between;
+  }
+
+#timerAndVideo {
+  width: 60%;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+#timerAndVideo h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #E33881;
+}
+
+#timerAndVideo video {
+  width: 100%;
+}
+
+footer {
+  padding-left: 60px;
+  padding-bottom: 25px;
+}
+
+footer img {
+  width: 180px;
+  height: 180px;
+}
+
+footer h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F3C61F;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#tickets {
+  display: flex;
+  flex-direction: row;
+}
+
+#button {
+  padding-top: 45px;
+  padding-left: 70px;
+}
+
+#button button {
+  background: #514988;
+  border-radius: 10px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 400px;
+  height: 90px;
+  transition: background 1s;
+}
+
+#button button:hover {
+  background: #FFD900;
+  transition: background 1s;
+}
